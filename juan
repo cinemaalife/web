@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="proyecto" content="width=device-width, initial-scale=1.0">
+    <title>Página de cinema life Chavarria huerta </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body   bgcolor="#73C6B6">
+    <header>
+        <h1
+          style="color:#F9EBEA;
+          font-family:times new roman;
+          font-size:50px;"
+          
+          >Bienvenido a Cinema life</h1>
+        <nav> 
+            <ul>
+               <li><a href="#formulario">Registro</a></li>
+                <li><a href="#menu">Lista de películas</a></li>
+                <li><a href="#promociones">Promociones</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+  
+  <section id="formulario">
+  
+      <form action="registrardatos.php" method="post">
+  Ingrese su nombre:
+  <input type="text" name="nombre" size="30"><br>
+  Seleccione su género:
+  <br>
+  <input type="radio" name="estudios" value="1">Mujer<br>
+  <input type="radio" name="estudios" value="2">hombre<br>
+  <input type="radio" name="estudios" value="3">otro<br>
+  <input type="submit" value="Enviar">
+</form>
+    
+    
+    
+  <input type="text" name="nombre" size="30"><br>
+  Seleccione su ubicación
+  <select name="pais">
+    <option value="1">Coacalco</option>
+    <option value="2">Tultitlan</option>
+    <option value="3">Tultepec</option>
+    <option value="4">Cualtitlan</option>
+  </select>
+  <br>
+  <input type="submit" value="Enviar">
+</form>
+  Ingrese una clave: 
+  <input type="password" name="clave" size="12">
+  <br>
+  <input type="submit" value="enviar">
+  <input type="reset" value="borrar">
+</form>
+    
+
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-height: 90%;
+    overflow-y: auto;
+    position: relative;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.question {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.question p {
+    margin: 0 0 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+label {
+    display: block;
+    margin: 5px 0;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+    
+
+</style>
+    
+  </section>
+    <section id="menu">
+        <h2>Nuestras listas</h2>
+        <div class="producto">
+            <img src="intensamente.jpeg" alt="Intensamente"> 
+             <img src="mi villano fav.jpeg" alt="mi villano favorito 4"> 
+           <img src="born pink.jpeg" alt="born pink"> 
+            <img src="beetlejuice.jpeg" alt="beetlejuice"> 
+            <img src="portada coraline.jpg" alt="coraline"> 
+          
+            <h3>Intensamente</h3>
+            <p>   Riley acaba de nacer y en el centro de control de su pequeña mente sólo hay sitio para Alegría. Poco después aparece Tristeza y, más tarde, Ira, Miedo y Asco. Las cinco emociones tendrán que ayudar a la niña cuando, ya con 11 años, su familia se mude desde su idílico pueblo del Medio Oeste estadounidense a la enorme e intimidante ciudad de San Francisco. Tras una serie de acontecimientos, Alegría y Tristeza tendrán que trabajar juntas para salvar a Riley.</p>
+            <p>Precio: $75</p>
+        </div>
+        <div class="producto">
+            <img src="intensamente.jpeg" alt="Intensamente">
+
+            <h3>Mi villano favorito 4</h3>
+            <p>  Después de siete años, nuestro supervillano favorito, ahora convertido en agente de la Liga Anti Villanos, vuelve con una impactante y frenética entrega de caos al más puro estilo Minion en la esperadísima nueva película de Illumination: GRU 4 MI VILLANO FAVORITO.Tras el bombazo en taquilla de Illumination con Minions: El origen de Gru, que recaudó más de mil millones de dólares en todo mundo, la mayor saga de animación de la historia abre un nuevo capítulo en el que Gru (con voz en VO del nominado al Oscar®️ Steve Carrell y de Florentino Fernández en la versión doblada al español), Lucy (con voz en VO de la nominada al Oscar®️ Kristen Wiig y de Patricia Conde en la versión doblada al español) y las niñas —Margo (Miranda Cosgrove en VO), Edith (Dana Gaier en VO) y Agnes (Madison Polan en VO)— dan la bienvenida a un nuevo miembro en la familia: Gru Junior, que parece llegar con el propósito de ser un suplicio para su padre.Gru tendrá que enfrentarse en esta ocasión a su nueva némesis Maxime Le Mal (con voz en VO del icono de la comedia Will Ferrell) y su sofisticada y malévola novia Valentina (con voz en VO de la nominada al Emmy Sofia Vergara), lo que obligará a la familia a tener que darse a la fuga.La película nos presenta en la versión original a un nuevo elenco de personajes con las voces de Joey King (Bullet Train), el ganador de varios Emmy Stephen Colbert (The Late Show with Stephen Colbert) y Chloe Fineman (Saturday Night Live). Pierre Coffin regresa como la emblemática voz de los Minions y el nominado al Oscar®️ Steve Coogan pone de nuevo voz en VO a Silas McCulloch.Cargada de acción trepidante y rebosante del característico humor subversivo de Illumination, GRU 4 MI VILLANO FAVORITO está dirigida por el cocreador de los Minions, el nominado al Oscar®️ Chris Renaud (Gru 2, mi villano favorito, Mascotas), y producida por el visionario fundador y director ejecutivo de Illumination, Chris Meledandri, así como por Brett Hoffman (productor ejecutivo de Super Mario Bros: La película y Minions: El origen de Gru). Codirige la cinta Patrick Delage (director de animación de ¡Canta! 2 y Mascotas 2) y el guion es de Mike White, ganador de dos Emmy y creador de la serie The White Lotus, y del veterano guionista de todas las anteriores entregas de Gru, mi villano favorito, Ken Daurio.</p>
+            <p>Precio: $50</p>
+        </div>
+ <div class="producto">
+            <img src="mi villano fav2.jpeg" alt="Mi villano favorito">
+
+            <h3>Born pink</h3>
+            <p>Born Pink World Tour es el nombre de la segunda gira mundial de conciertos del grupo surcoreano Blackpink, la cual recorrió Asia, Norteamérica, Europa y Oceanía en 66 fechas, comenzó en el Olympic Gymnastics Arena de Seúl el 15 de octubre de 2022 y finalizó en el Gocheok Sky Dome de Seúl el 17 de septiembre de 2023.</p>
+            <p>Precio: $185</p>
+        </div>
+         <div class="producto">
+            <img src="born pink 2.jpeg" alt="Born pink">
+
+            <h3>Beetlejuice</h3>
+            <p> Beetlejuice Beetlejuice es una próxima película de comedia de terror y fantasía estadounidense de 2024, dirigida por Tim Burton, a partir de un guion de Alfred Gough y Miles Millar, basado en una historia de Gough, Millar y Seth.</p>
+            <p>Precio: $85</p>
+            <img src="beetlejuice.jpeg" alt="Beetlejuice">
+        </div>
+      
+            <h3>Coraline</h3>
+            <p>Trata de una niña que, al mudarse a su nuevo hogar, descubre una pequeña puerta escondida en su casa. Aburrida de intentar llamar la atención de sus padres constantemente, encuentra detrás de esta puerta una realidad alternativa bastante parecida a la que ya es su vida. </p>
+            <p>Precio: $70</p>
+        </div>
+         <div class="producto">
+           
+         <div class="producto">
+            <img src="portada coraline.jpeg" alt="Coraline">
+
+        </div>
+    </section>
+
+    <section id="promociones">
+        <h2>Promociones</h2>
+        <p>No te pierdas nuestras promociones especiales todos los miercoles.(solo válido en tienda)</p>
+        <p>¡Visita nuestro gran cine y disfruta de descuentos exclusivos!</p>
+      
+      <h3>Combo mimi</h3>
+            <p>Combo pareja con dos bebidas, palomitas grandes, nachos </p>
+            <p>Precio: $250</p>
+        </div>
+         <div class="producto">
+           
+         <div class="producto">
+            <img src="combo1.jpeg" alt="Combo mimi">
+        </div>
+      
+            <h3>Combo fami</h3>
+            <p>Combo pareja con tres bebidas grandes, 3 palomitas grandes, nachos, milkyway.</p>
+            <p>Precio: $400</p>
+        </div>
+         <div class="producto">
+           
+         <div class="producto">
+            <img src="combo 2.jpeg" alt="Combo fami">
+           
+           
+    </section>
+
+           <div class="form-group">
+                    <label for="payment">Método de Pago</label>
+                    <select id="payment" name="payment" required>
+                        <option value="tarjeta_credito">Tarjeta de Crédito</option>
+                        <option value="paypal">PayPal</option>
+                        <option value="transferencia">Transferencia Bancaria</option>
+                    </select>
+           
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¡Estamos aquí para ayudarte!</p>
+        <p>Contáctanos para cualquier duda.</p>
+        <form action="enviar.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+           <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Cinema Life  </p>
+    </footer>
+</body>
+</html>
